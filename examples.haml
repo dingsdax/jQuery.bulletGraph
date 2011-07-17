@@ -1,0 +1,32 @@
+%html
+	%head
+	%title jQuery Bullet Graph Sliders
+	%script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js", :type => "text/javascript"}
+	%script{:src => "js/jquery-ui-slider-1.8.14.min.js", :type => "text/javascript"}
+	%script{:src => "js/jquery.bulletgraph.js", :type => "text/javascript"}
+	%script{:src => "js/app.js", :type => "text/javascript"}		
+		
+	%link(rel="stylesheet" type="text/css" href="css/app.css")
+	%link(rel="stylesheet" type="text/css" href="css/bulletgraph.css")
+	
+	%body
+		%div#container
+			%h1 jQuery Bullet Graphs
+			%div#content
+				%h2 Single bullet graphs
+				%div#hsbg1
+					%select#metric1.hidden{:name => "metric:1", :data => {:target => rand(100), :treshold => rand(20)}}
+						- (0..100).each do |o|
+							%option{:value => o}= o
+				%div.clear
+				%div#hsbg2
+					%select#metric2.hidden{:name => "metric:2"}
+						- (0..10).each do |o|
+							%option{:value => o}= o
+				%div.clear
+				%h2 Multiple bullet graphs combined
+				- (0..4).each do |b|
+					%div#hmbg
+						%select.multigraph.hidden{:id => "bulletgraph"+(b+3).to_s, :name => "metric:"+(b+3).to_s, :data => {:target => rand(100), :treshold => 15}}
+							- (0..100).each do |o|
+								%option{:value => o}= o

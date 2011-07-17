@@ -1,0 +1,142 @@
+body {
+	font-family: 'Arial Narrow', sans-serif;
+	margin: 2em;
+	background-color: #efefef;
+	color: #111;
+}
+
+#content {
+	margin-left: 4px;
+}
+
+.hidden {
+	display: none;
+}
+
+#hsbg1, #hsbg2 {
+	margin: 2em 0;
+}
+
+#hmbg {
+	margin: 2em 0;
+}
+
+#hmbg .bulletbox {
+	margin-bottom: 0.75em;
+}
+
+.clear {
+	clear: both;
+}
+
+h1 {
+	font-size: 40;
+	line-height: 40px;
+	text-transform: uppercase;
+}
+
+h2 {
+	margin-top: 2em;
+	font-size: 28px;
+	line-height: 28px;
+}
+
+#vsbg1 {
+	-webkit-transform: rotate(90deg); 
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+
+/* style slider ranges & handles */
+
+#hsbg1 .ui-slider-range {
+	background-color: #00A0CF;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00A0CF), to(#0082A8));
+	background: -moz-linear-gradient(top,  #00A0CF,  #0082A8);
+	background: -o-linear-gradient(top,  #00A0CF,  #0082A8);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00A0CF', endColorstr='#0082A8');
+}
+
+#hsbg1 .ui-slider-handle {
+	background-color: #00A0CF;
+	box-shadow: 1px 1px 2px #0082A8;
+	-webkit-box-shadow: 1px 1px 2px #0082A8;
+	-moz-box-shadow: 1px 1px 2px #0082A8;
+	filter: progid:DXImageTransform.Microsoft.dropShadow(color=#0082A8, offX=1, offY=1, positive=true);
+}
+
+#hsbg2 .ui-slider-range {
+	background-color: #8C0E34;
+	background: -webkit-gradient(linear, left top, left bottom, from(#CC144C), to(#8C0E34));
+	background: -moz-linear-gradient(top,  #CC144C,  #8C0E34);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#CC144C', endColorstr='#8C0E34');
+}
+
+#hsbg2  .ui-slider-handle {
+	background-color: #CC144C;
+	box-shadow: 1px 1px 2px #8C0E34;
+	-webkit-box-shadow: 1px 1px 2px #8C0E34;
+	-moz-box-shadow: 1px 1px 2px #8C0E34;
+	filter: progid:DXImageTransform.Microsoft.dropShadow(color=#8C0E34, offX=1, offY=1, positive=true);
+}
+
+#bulletgraph3_bulletGraphBox .ui-slider-range {
+	background-color: #B28704;
+	background: -webkit-gradient(linear, left top, left bottom, from(#F2B705), to(#B28704));
+	background: -moz-linear-gradient(top,  #F2B705,  #B28704);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F2B705', endColorstr='#B28704');
+}
+
+#bulletgraph3_bulletGraphBox  .ui-slider-handle {
+	background-color: #F2B705;
+	box-shadow: 1px 1px 2px #B28704;
+	-webkit-box-shadow: 1px 1px 2px #B28704;
+	-moz-box-shadow: 1px 1px 2px #B28704;
+	filter: progid:DXImageTransform.Microsoft.dropShadow(color=#B28704, offX=1, offY=1, positive=true);
+}
+
+#bulletgraph4_bulletGraphBox .ui-slider-range {
+	background-color: #8C0E34;
+	background: -webkit-gradient(linear, left top, left bottom, from(#1EF4C1), to(#16B48E));
+	background: -moz-linear-gradient(top,  #1EF4C1,  #16B48E);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1EF4C1', endColorstr='#16B48E');
+}
+
+#bulletgraph4_bulletGraphBox  .ui-slider-handle {
+	background-color: #1EF4C1;
+	box-shadow: 1px 1px 2px #16B48E;
+	-webkit-box-shadow: 1px 1px 2px #16B48E;
+	-moz-box-shadow: 1px 1px 2px #16B48E;
+	filter: progid:DXImageTransform.Microsoft.dropShadow(color=#16B48E, offX=1, offY=1, positive=true);
+}
+
+#bulletgraph5_bulletGraphBox .ui-slider-range {
+	background-color: #7F077F;
+	background: -webkit-gradient(linear, left top, left bottom, from(#BF0ABF), to(#7F077F));
+	background: -moz-linear-gradient(top,  #BF0ABF,  #8C0E34);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#BF0ABF', endColorstr='#8C0E34');
+}
+
+#bulletgraph5_bulletGraphBox  .ui-slider-handle {
+	background-color: #BF0ABF;
+	box-shadow: 1px 1px 2px #7F077F;
+	-webkit-box-shadow: 1px 1px 2px #7F077F;
+	-moz-box-shadow: 1px 1px 2px #7F077F;
+	filter: progid:DXImageTransform.Microsoft.dropShadow(color=#7F077F, offX=1, offY=1, positive=true);
+}
+
+#bulletgraph7_bulletGraphBox .ui-slider-range {
+	background-color: #B2AB8B;
+	background: -webkit-gradient(linear, left top, left bottom, from(#D9D0A9), to(#B2AB8B));
+	background: -moz-linear-gradient(top,  #D9D0A9,  #B2AB8B);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#D9D0A9', endColorstr='#B2AB8B');
+}
+
+#bulletgraph7_bulletGraphBox  .ui-slider-handle {
+	background-color: #D9D0A9;
+	box-shadow: 1px 1px 2px #B2AB8B;
+	-webkit-box-shadow: 1px 1px 2px #B2AB8B;
+	-moz-box-shadow: 1px 1px 2px #B2AB8B;
+	filter: progid:DXImageTransform.Microsoft.dropShadow(color=#B2AB8B, offX=1, offY=1, positive=true);

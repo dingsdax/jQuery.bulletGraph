@@ -1,0 +1,97 @@
+.containerbox {
+clear: both;
+}
+
+.bulletbox {
+position: relative;
+border: 1px solid #cccccc;
+float: left;
+}
+
+.info {
+float: left;
+margin: 4px;
+}
+
+.bulletbox .mark_range {
+position: absolute;
+background-color: #cccccc;
+z-index: 1;
+}
+
+.bulletbox .caption_range {
+position: absolute;
+font-size: 8pt;
+text-align: center;
+color: #666666;
+}
+
+.bulletbox .mark_bottom {
+position: absolute;
+width: 1px;
+background-color: #cccccc;
+z-index: 1;
+font-size: 0;
+}
+
+.bulletbox .caption_bottom {
+position: absolute;
+font-size: 6pt;
+text-align: center;
+color: #666666;
+}
+
+.bulletbox .range {
+position: absolute;
+z-index: 1;
+}
+
+.bulletbox .target {
+position: absolute;
+width: 2px;
+background-color: #ccc;
+z-index: 3;
+box-shadow: 1px 1px 2px #818181;
+-webkit-box-shadow: 1px 1px 2px #818181;
+-moz-box-shadow: 1px 1px 2px #818181;
+filter: progid:DXImageTransform.Microsoft.dropShadow(color=#818181, offX=1, offY=1, positive=true);
+}
+
+.bulletbox .actual {
+position: absolute;
+left: 0px;
+top: 7px;
+background: none;
+font-size: 0;
+z-index: 2;
+border-radius: 0px;
+border: none;
+}
+
+.bulletbox .ui-slider-range {
+background-color: #000;
+background: -webkit-gradient(linear, left top, left bottom, from(#555), to(#000));
+background: -moz-linear-gradient(top,  #555,  #000);
+background: -o-linear-gradient(top,  #555,  #000);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#555', endColorstr='#000');
+box-shadow: 1px 1px 2px #818181;
+-webkit-box-shadow: 1px 1px 2px #818181;
+-moz-box-shadow: 1px 1px 2px #818181;
+filter: progid:DXImageTransform.Microsoft.dropShadow(color=#818181, offX=1, offY=1, positive=true);
+}
+
+.bulletbox .ui-slider .ui-slider-handle {
+cursor: move;
+top: -14px;
+left: 0px;
+position: absolute;
+background-color: #000;
+border: none;
+width: 2px;
+z-index: 10;
+box-shadow: 1px 1px 2px #000;
+-webkit-box-shadow: 1px 1px 2px #000;
+-moz-box-shadow: 1px 1px 2px #000;
+filter: progid:DXImageTransform.Microsoft.dropShadow(color=#818181, offX=1, offY=1, positive=true);
+outline: none;
+}
