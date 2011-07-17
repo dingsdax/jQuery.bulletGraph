@@ -22,8 +22,8 @@ _for more usage and customization, please have a look at the source & examples c
 * **width** - of bulletgraph in pixel
 * **height** - of bulletgrpah in pixel
 * **tickHeight** - height of top/bottom ticks for labels and steps
-* **ranges** - array of (qualitative) range borders in % -  _['0%', '50%', '75%', '100%']_
-* **rangeLabels** - array of (qualitative) labels for ranges (size=rangesLabels-1) - _['poor', 'satisfactory', 'good']_
+* **ranges** - array of (qualitative) range borders in % - e.g. _['0%', '50%', '75%', '100%']_
+* **rangeLabels** - array of (qualitative) labels for ranges (size=rangesLabels-1) - e.g. _['poor', 'satisfactory', 'good']_
 * **ticks** - number of ticks to show at the bottom, usually the number of values in select element
 * **nTick** - reduce number of ticks to show only every n-th tick
 * **steps** - steps for jQuery UI slider
