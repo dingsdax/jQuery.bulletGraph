@@ -31,6 +31,6 @@ _for more usage and customization, please have a look at the source & examples c
 * **showTicks** - show ticks and qualitative labels at the bottom
 * **sliderOptions** - options for the [jQuery UI slider](http://jqueryui.com/demos/slider/)
 
-## Implementations ##
+## other Implementations ##
 [Google Charts API](http://dealerdiagnostics.com/blog/2008/05/create-bullet-graphs-with-google-charts-in-7-easy-steps/), [Google Spreadsheets](http://dealerdiagnostics.com/blog/2008/09/the-ddr-bullet-graph-gadget/), [Excel](http://www.exceluser.com/explore/bullet.htm), [WPF,WinForms](http://www.codeproject.com/KB/WPF/WpfWinFormsBulletGraphs.aspx), [CSS/HTML](http://www.usrecordings.com/test-lab/bullet-graph.htm), [jQuery Sparklines](http://omnipotent.net/jquery.sparkline/), [Protovis](http://mbostock.github.com/protovis/ex/bullet.html),...
 
